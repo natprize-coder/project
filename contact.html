@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us-PSS</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        body {
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contact US</h1>
+       <nav>
+            <ul>
+                <li><a href="/">Home </a></li> 
+                <li><a href="#/menu">Our Menu</a></li>
+                <li><a href="#/about">About <abbr title="Pretty Pizza Byte Stop Shop">PSS</abbr></a></li>
+                <li><a href="hours.html">Our restaurant Hours</a></li>
+            </ul>
+        </nav> 
+        <figure>
+            <img src="img/two_pizza.jpg" alt="Pretty Pizza Byte Shop" title="pizzas ready to eat!" width="500" height="362" style="border-radius: 100px; display:block; margin-left:auto; margin-right:auto;">
+            <figcaption>Pretty Pizza Byte Shop</figcaption>
+        </figure>
+    </header>
+    <hr>
+    <main>
+        <section id="contact-form">
+       <h2>Our Contact Form</h2>
+       <form action="https://httpbin.org/get" method="get">
+        <fieldset>
+            <legend>Send Us A Message</legend>
+            <p>
+                <label for="name">Name</label>
+                <input type="text" name="name"
+                id="name" placeholder="your name"required>
+            </p>
+            <p>
+                <label for="email">Email</label>
+                <input type="email" name="email"
+                id="email" placeholder="your email"required>
+            </p>
+            <p>
+                <label for="Message">Your Message</label>
+                <br>
+                <textarea name="Message" id="Message" cols="30" rows="10" placeholder="your message" required></textarea>
+            </p>
+        </fieldset>
+        <button type="submit">send</button>
+        <button type="reset">reset</button>
+       </form>
+       </section>
+       <section>
+        <h2>Our Location</h2>
+        <address>
+            Kansanga-Ggaba road <br>Mo 64111<br>
+            <br><br>
+            phone: <a href="tel:+2564567890">0777199552</a><br>
+            email: <a href="mailto:info@prettypizzabyteshop.com">info@prettypizzabyteshop.com</a>
+        </address>
+       </section>
+    </main>
+    <hr>
+    <footer>
+        <p>Copyright &copy; Pretty Pizza Byte Shop</p>
+    </footer>
+</body>
+</html>
